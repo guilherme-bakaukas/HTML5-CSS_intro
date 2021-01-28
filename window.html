@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Apresentação html/CSS Guilherme Tezoli</title>
+        <link rel="stylesheet" href="style.css">
+        <!-- fazemos uma referência ao estilo em css -->      
+    </head>
+    <body>
+        <header>
+            <h1>Guilherme Tezoli Bakaukas</h1>
+            <img class="perfil_photo" src="foto_de_perfil.jpg" alt="foto de perfil">
+            <!-- src indica o caminha da foto e alt sua descrição -->   
+        </header>
+        <section>
+            <header>
+                <h2>Um pouco sobre mim e propósito da página</h2>
+            </header>
+            <p>
+                Nascido em Sorocaba, SP, finalizei o ensino médio no Colégio Uirapuru. Logo em seguida ingressei no curso de Engenharia de Computação na Universidade Estadual de Campinas
+                (UNICAMP) no ano de 2019. Através dessa página,
+                busco colocar em prática os conceitos de HTML5 e CSS e explicar um pouco dos pontos mais básicos dessas linguagens.
+                Venha comigo!
+            </p>
+            <article>
+                <header>
+                    <h3 class="title_html">Básico de HTML5</h3>
+                    <img class="html_photo" src="html.png" alt="foto ilustrativa html5">
+                </header>
+                <p>
+                    Essa linguagem é voltada para o desenvolvimento web, de modo a estruturar todo seu conteúdo. 
+                    Seu funcionamento básico é organizado em elementos, os quais podem ser formados por: tag de abertura e seus atributos,
+                     seu conteúdo e uma tag de fechamento. A partir disso, vamos aprender algumas das tags mais utilizadas:
+                </p>
+                <ul>
+                    <li>tag head</li>
+                    <p>
+                        Essa tag é utilizada para apresentar informações ao navegador, tais como metadados, isto é,
+                         dados sobre como os dados devem ser apresentados ao usuário. É aqui que o arquivo em CSS é referenciado,
+                         mas veremos isso mais pra frente...
+                    </p>
+                    <li>tag body</li>
+                    <p>
+                        A tag body é responsável por armazenar todo conteúdo visível ao usuário
+                    </p>
+                    <li>tag header</li>
+                    <p>
+                        Essa tag indica um cabeçalho de uma seção, usualmente ela contém títulos e/ou dados iniciais de um conteúdo
+                    </p>
+                    <li>tag h1-h6</li>
+                    <p>
+                        Responsável por determinar os níveis de título, sendo h1 o mais importante e, portanto, o maior e h6 o menos importante, logo, o menor
+                    </p>
+                </ul>
+                <p>
+                    Essas são apenas algumas tags utilizadas em html, mais informações podem ser encontradas em cursos online disponíveis em plataformas como <a href="https://digitalinnovation.one/" target="_blank">digitalinnovation.one</a>
+                     ou até mesmo em sites como <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML/HTML5" target="_blank">https://developer.mozilla.org/pt-BR/docs/Web/HTML/HTML5</a>.
+                     Ademais, como esta página foi desenvolvida em HTML e CSS, basta apertar F12 ou clicar com o botão direito do mouse e selecionar a opção "inspecionar" para ter acesso ao código.
+                </p>
+            </article>
+            <article>
+                <header>
+                    <h3 class="title_css">Básico de CSS</h3>
+                    <img class="css_photo" src="css.png" alt="imagem ilustrativa css">
+                </header>
+                <p>
+                    Seu nome já descreve sua função: Cascading Style Sheets. Ou seja, é uma linguagem usada para estilizar documentos web.
+                    Para isso, ele é referenciado no início do documento (head) e, através dos conceitos de classes e ID's ele determina estilos
+                    para os elementos HTML. Um ID pode ser utilizado apenas uma vez na página, mas a classe, por sua vez, não tem essa restrição.
+                    Desse modo, podemos definir regras para os elementos indicados pelas tags mostradas anteriormente, dispostas da seguinte maneira:
+                    seletores{declarações}. Sejam os elementos como seletores e as declarações idicando propriedade e valores para eles. Por exemplo: 
+                </p>
+                <ul>
+                    <li class="first_element_css">Elemento em vermelho e maiúsculo</li>
+                    <p>
+                        Aqui foram utilizados no elemento, as declarações:
+                        <ul>
+                            <li> text-transform: uppercase</li>
+                            <li>color: red</li>
+                        </ul>
+                    </p>
+                    <li class="second_element_css">Elemento sublinhado e grande</li>
+                    <p>
+                        Nesse caso o elemento contém as regras de:
+                        <ul>
+                            <li>text-decoration: underline</li>
+                            <li>font-size: 30px</li>
+                        </ul>
+                    </p>
+                </ul>
+                <p>
+                    Aqui temos poucos e básicos exemplos e uma breve introdução ao CSS. Através dessa liguagem é possível estruturar a página, determinar margens, alinhar o texto,
+                    definir bordas, cores de fundo, ... Portanto, se vc está em busca de mais conhecimento sobre suas funcionalidades, consulte o site <a href="https://developer.mozilla.org/pt-BR/docs/Web/CSS" target="_blank">developer.mozilla.org/pt-BR/docs/Web/CSS</a>
+                    ou busque cursos online na plataforma <a href="https://digitalinnovation.one/" target="_blank">digitalinnovation.one</a>, que possui diversos cursos qualificados sobre o assunto 
+                </p>
+            </article>
+        </section>
+        <footer>
+            <header>
+                <h4>Contato:</h4>
+            </header>
+            <ul>
+                <li>
+                    <a href="mailto:guilherme.tezoli@hotmail.com">guilherme.tezoli@hotmail.com</a>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/in/guilherme-tezoli-bakaukas-404b54204/" target="_blank">Linkedin</a>
+                </li>
+                <li>
+                    <a href="https://github.com/guilherme-bakaukas" target="_blank">GitHub</a>
+                </li>
+            </ul>
+        </footer>
+    </body>
+</html>

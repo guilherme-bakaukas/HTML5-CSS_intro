@@ -1,0 +1,60 @@
+/*através das classe criadas no arquivo HTML, podemos estilizá-los em CSS*/
+
+body{
+    background-color: rgb(184, 169, 169);
+    font-family: Verdana;
+    max-width: 900px; /*define a largura maxima, para quando em uma janela menor, o conteúdo se adaptar ao tamanho*/
+    margin: auto;
+    text-align: justify;
+    /*centraliza o body, com margem automaticamente equilibrada e justificamos o texto*/
+}
+
+.perfil_photo{
+    max-width:200px;
+    max-height:150px;
+    width: auto;
+    height: auto;
+    border-radius: 50%;
+    border: 5px solid black;
+    /*borda preta e sólida de maneira circular (definida através do 50%)*/
+}
+/*tamanhos das imagens definidos*/
+.html_photo{
+    max-width:200px;
+    max-height:150px;
+    width: auto;
+    height: auto;
+}
+
+.css_photo{
+    max-width:200px;
+    max-height:150px;
+    width: auto;
+    height: auto;
+}
+/*cor azul para os links da página (referenciados pela tag de âncora: a)*/
+a{
+    color: blue;
+}
+
+.first_element_css{
+    text-transform: uppercase;
+    color:red;
+}
+
+.second_element_css{
+    text-decoration: underline;
+    font-size: 30px;
+}
+
+/*define margem no topo dos títulos e suas cores*/
+
+.title_css{
+    margin-top: 30px;
+    color: rgb(3, 109, 247);
+}
+
+.title_html{
+    margin-top: 30px;
+    color:rgb(255, 94, 0);
+}
